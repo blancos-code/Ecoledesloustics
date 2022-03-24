@@ -10,7 +10,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="L'école des"
@@ -41,9 +41,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:backgroundTint="@color/cardview_dark_background"
-        android:onClick=""
         android:text="Jouer"
         android:textColor="@color/white" />
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -52,22 +52,23 @@
         android:gravity="center"
         android:layout_marginTop="10dp">
 
-        <Button
+        <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/white"
-            android:onClick=""
-            android:text="login"
-            android:textColor="@color/black" />
+            android:src="@drawable/ic_baseline_login_24"
+            android:padding="5dp"
+            android:background="#2E2222"
+            android:textColor="@color/black"
+            style=""
+            />
 
-        <Button
+        <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/white"
-            android:onClick=""
-            android:text="account"
-            android:layout_marginLeft="10dp"
-            android:textColor="@color/black" />
+            android:padding="5dp"
+            android:background="#2E2222"
+            android:src="@drawable/ic_baseline_account_box_24"
+            android:layout_marginLeft="10dp" />
     </LinearLayout>
 
 
@@ -91,7 +92,6 @@
             android:layout_width="225dp"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/design_default_color_error"
-            android:onClick=""
             android:text="Quitter"
             android:layout_marginBottom="25dp"
             android:textColor="@color/white" />

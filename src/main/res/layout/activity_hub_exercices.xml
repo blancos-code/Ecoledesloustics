@@ -10,7 +10,7 @@
     tools:context=".hub_exercices">
 
     <TextView
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="L'école des"
@@ -44,16 +44,14 @@
         android:textColor="@color/white" />
 
 
-    <TextView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:gravity="center"
         android:layout_gravity="center"
-        android:text="calc"
-        android:backgroundTint="@color/white"
-        android:background="@color/white"
         android:padding="8dp"
+        android:src="@drawable/ic_baseline_calculate_24"
         android:textColor="@color/black" />
 
     
@@ -64,7 +62,7 @@
         android:backgroundTint="#493636"
         android:layout_gravity="center"
         android:gravity="center"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:orientation="vertical"
         android:padding="10dp"
         >
@@ -91,11 +89,10 @@
                 android:gravity="center|end"
                 android:orientation="horizontal">
 
-                <TextView
+                <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:backgroundTint="@color/white"
+                    android:src="@drawable/ic_twotone_clear_24"
                     android:padding="8dp"
 
                     android:text="X"
@@ -128,11 +125,10 @@
                 android:gravity="center|end"
                 android:orientation="horizontal">
 
-                <TextView
+                <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@color/white"
-                    android:backgroundTint="@color/white"
+                    android:src="@drawable/ic_baseline_add_24"
                     android:padding="8dp"
 
                     android:text="+"
@@ -141,15 +137,13 @@
         </LinearLayout>
     </LinearLayout>
 
-    <TextView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:gravity="center"
         android:layout_gravity="center"
-        android:text="\?"
-        android:backgroundTint="@color/white"
-        android:background="@color/white"
+        android:src="@drawable/ic_baseline_lightbulb_circle_24"
         android:padding="8dp"
         android:textColor="@color/black" />
 
@@ -218,7 +212,6 @@
             android:backgroundTint="@color/design_default_color_error"
             android:text="retour"
             android:layout_marginLeft="25dp"
-            android:layout_marginBottom="25dp"
             android:textColor="@color/white" />
 
     </LinearLayout>
